@@ -1,0 +1,156 @@
+
+html {
+  background-image: url("https://www.pixeden.com/media/k2/galleries/220/006-wood-melamine-subttle-pattern-background-pat.jpg");
+}
+/*navigation bar edit*/
+.imagespacing {
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+.navpos {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color:rgba(255,255,255,.6)
+
+}
+
+#navbar ul {
+  list-style: none;
+  font-family: 'Archivo Black', sans-serif;
+  padding-left: 100px;
+  padding-top: 10px;
+
+
+}
+#navbar li {
+  float: left;
+  margin-left: 100px;
+  margin-top: 20px;
+  padding-left: 80px;
+  font-size: 20px;
+
+
+}
+#navbar li a {
+  text-decoration: none;
+  color: black;
+}
+/*first image table css/settings*/
+#ImageTable {
+
+  border-left: none;
+  border-right: none;
+  height: 80px;
+  width: span;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+}
+
+img {
+
+  border-radius: 10px;
+  border: 3px solid white;
+}
+
+td img {
+  height: 80px;
+  width: 100px;
+
+
+}
+ td {
+  display: inline-table;
+  margin-left: 220px;
+
+}
+/*paragraph setting in div*/
+h1 {
+  text-align: center;
+  padding-top: 40px;
+}
+#summary {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* work experiance */
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+#workpara p {
+  padding-left: 50px;
+  padding-right: 60px;
+}
+#workpara p ul {
+  list-style: none;
+}
+
+.bullets li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+#subwork ul li {
+  list-style: none;
+  font-weight:bold;
+}
+
+/*schooling stuff format*/
+h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+/*hobbies table*/
+#hobbiestable {
+
+  margin-left: 40px;
+  margin-top: 60px;
+}
+#hobbierow td {
+
+  height: 60px;
+  width: 50px;
+}
+#hobbierow tr td img {
+  height: 400px;
+  width: 300px;
+}
+/*schooling stuff*/
+#school ul li {
+  list-style: none;
+}
+
+
+/*footer stuf*/
+h4 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#footer li {
+  float: left;
+  padding-left: 260px;
+  list-style: none;
+}
+
+/*fonts for header/paragraphs*/
+p {
+  font-family:'Dosis', sans-serif;
+}
+.header {
+  font-family:'Archivo Black', sans-serif;
+  font-size: 1em;
+}
+
+/* hovering effect/ animations*/
+
+a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
