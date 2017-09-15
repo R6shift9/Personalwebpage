@@ -73,9 +73,10 @@ h1 {
   padding-top: 40px;
 }
 #summary {
-  text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
+  text-align:  left;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 40px 40px;
 }
 
 /* work experiance */
