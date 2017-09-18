@@ -1,12 +1,15 @@
 
 html {
   background-image: url("https://www.pixeden.com/media/k2/galleries/220/006-wood-melamine-subttle-pattern-background-pat.jpg");
+  font-size: 16px;
+
+
+
 }
+
+
 /*navigation bar edit*/
-.imagespacing {
-  padding-top: 20px;
-  padding-bottom:20px;
-}
+
 .navpos {
   position:fixed;
   top: 0;
@@ -19,17 +22,19 @@ html {
 #navbar ul {
   list-style: none;
   font-family: 'Archivo Black', sans-serif;
-  padding-left: 100px;
-  padding-top: 10px;
+  padding-left: 6.25em;
+  padding-top: .8em;
 
 
 }
 #navbar li {
   float: left;
-  margin-left: 100px;
-  margin-top: 20px;
-  padding-left: 80px;
-  font-size: 20px;
+  margin-left: 6.25em;
+  margin-top: 1.2em;
+  margin-bottom:1.2em;
+  padding-left: 5em;
+  font-size: 1.2em;
+  border:1px solid white;
 
 
 }
@@ -38,17 +43,30 @@ html {
   color: black;
 }
 /*first image table css/settings*/
+/*.imagespacing {
+  padding-top: 3em;
+  padding-bottom:3em;
+  margin-bottom: 3em;
+  border: 1px solid white;
+  width:100%;*/
+
+
+}
 #ImageTable {
 
-  border-left: none;
-  border-right: none;
+  border:1px dotted red;
   height: 80px;
-  width: span;
-  margin-top: 10px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 10px;
   padding-left: 35px;
+  display: inline-block;
+
+
 }
+
 
 img {
 
@@ -57,14 +75,14 @@ img {
 }
 
 td img {
-  height: 80px;
-  width: 100px;
+  height: 5em;
+  width: 6.25em;
 
 
 }
  td {
   display: inline-table;
-  margin-left: 220px;
+  margin-left: 13.75em;
 
 }
 /*paragraph setting in div*/
@@ -137,7 +155,7 @@ h4 {
 
 #footer li {
   float: left;
-  padding-left: 260px;
+  padding-left: 270px;
   list-style: none;
 }
 
