@@ -22,8 +22,9 @@ html {
 #navbar ul {
   list-style: none;
   font-family: 'Archivo Black', sans-serif;
-  padding-left: 6.25em;
+  padding-left: 1em;
   padding-top: .8em;
+  font-size:1.6em;
 
 
 }
@@ -34,14 +35,14 @@ html {
   margin-bottom:1.2em;
   padding-left:
   font-size: 1.2em;
-  
+
 
 }
 #navbar li a {
   text-decoration: none;
   color: black;
 }
-/*first image table css/settings*/
+/*first image table css test/settings*/
 /*.imagespacing {
   padding-top: 3em;
   padding-bottom:3em;
@@ -115,12 +116,18 @@ h2 {
 
 .bullets li {
   list-style: none;
-  font-size: 18px;
+  font-size: 1.4em;
   font-weight: bold;
 }
 #subwork ul li {
   list-style: none;
   font-weight:bold;
+  font-size: 1.1em;
+}
+#Skills ul li {
+  font-size: 1.9em;
+  list-style: none;
+  font-weight: bold;
 }
 
 /*schooling stuff format*/
@@ -146,13 +153,15 @@ h3 {
 /*schooling stuff*/
 #school ul li {
   list-style: none;
+  font-size:1.3em;
+  font-weight: bold;
 }
 
 
 /*footer stuf*/
 h4 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 #footer li {
@@ -164,14 +173,20 @@ h4 {
 /*fonts for header/paragraphs*/
 p {
   font-family:'Dosis', sans-serif;
+  font-size: 1.5em;
 }
 .header {
   font-family:'Archivo Black', sans-serif;
-  font-size: 1em;
+  font-size: 2em;
 }
+
 
 /* hovering effect/ animations*/
 
 a:hover {
   background-color: rgba(0, 0, 0, 0.5);
+}
+a:hover visited {
+  margin-left:2px;
+  margin-top:2px;
 }
