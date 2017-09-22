@@ -30,7 +30,7 @@ html {
 }
 #navbar li {
   float: left;
-  margin-left: 6.25em;
+  margin-left: 4em;
   margin-top: 1.2em;
   margin-bottom:1.2em;
   padding-left:
@@ -168,6 +168,8 @@ h4 {
   float: left;
   padding-left: 50px;
   list-style: none;
+  font-size:1.5em;
+
 }
 
 /*fonts for header/paragraphs*/
