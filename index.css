@@ -76,8 +76,8 @@ img {
 }
 
 td img {
-  height: 5em;
-  width: 6.25em;
+  height: 10em;
+  width: 10em;
 
 
 }
@@ -171,7 +171,7 @@ h4 {
   font-size:1.5em;
   color: blue;
   margin-bottom:40px;
-  
+
 }
 
 /*fonts for header/paragraphs*/
